@@ -42,7 +42,7 @@ class _TileState extends State<Tile> {
       child: Container(
           margin: EdgeInsets.all(10),
           //color: Colors.white,
-          height: 450,
+          height: 500,
           width: 300,
           child: Column(
             children: <Widget>[
@@ -65,7 +65,7 @@ class _TileState extends State<Tile> {
               ),
               Container(
                 color: Colors.white,
-                height: 150,
+                height: 170,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
@@ -79,8 +79,6 @@ class _TileState extends State<Tile> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        new TagChip(),
-                        new TagChip(),
                         new TagChip(),
                         new TagChip(),
                         new TagChip(),
